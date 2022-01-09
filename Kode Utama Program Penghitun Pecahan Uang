@@ -1,0 +1,77 @@
+package PecahanUang;
+
+
+import javax.swing.*;
+/**
+ *
+ * @author User
+ */
+public class PecahanUang{
+    
+    public static void main(String[] args)
+    {
+        String i = JOptionPane.showInputDialog("masukkan nilai nominal uang anda : ");//(masukan inputan dengan menggunakan dialog box)
+
+int JumlahUang  = Integer.parseInt(i);//(mengubah integer jumlah uang integer i)
+
+int hitung = JumlahUang/100000;//(int hitung = jumlah uang di bagi 100000)
+int sisa= JumlahUang%100000;//(int sisa = jumlah uang rata2 per100000)*untuk selanjutnya sama dengan data yang di atas penjelasanya)
+
+int hitung2= sisa/50000;
+int sisa2= JumlahUang%50000;
+
+int hitung3= sisa2/20000;
+int sisa3= JumlahUang%20000;
+
+int hitung4= sisa3/10000;
+int sisa4= JumlahUang%10000;
+
+int hitung5= sisa4/5000;
+int sisa5= JumlahUang%5000;
+
+int hitung6= sisa5/2000;
+int sisa6= JumlahUang%2000;
+
+int hitung7= sisa6/1000;
+int sisa7= JumlahUang%1000;
+
+int hitung8= sisa7/500;
+int sisa8= JumlahUang%500;
+
+int hitung9= sisa8/100;
+int sisa9= JumlahUang%100;
+
+int hitung10= sisa9/50;
+int sisa10= JumlahUang%50;
+
+int hitung11= sisa10/25;
+int sisa11= JumlahUang%25;
+
+int hitung12= sisa11/5;
+int sisa12= JumlahUang%5;
+
+
+
+
+
+
+System.out.println("Jumlah Uang yang anda Masukkan = Rp."+JumlahUang);
+//(outpot hasil jumlah uang yang di masukan)
+
+System.out.println("Jumlah Uang Rp. 100.000    Sebanyak: "+hitung);
+//(hasil output pada layar rp 100.000 )*sama selnjutnya dengan penjelasan coding di bawahnya
+System.out.println("Jumlah Uang Rp. 50.000     Sebanyak: "+hitung2);
+System.out.println("Jumlah Uang Rp. 20.000    Sebanyak: "+hitung3);
+System.out.println("Jumlah Uang Rp. 10.000     Sebanyak: "+hitung4);
+System.out.println("Jumlah Uang Rp. 5.000     Sebanyak: "+hitung5);
+System.out.println("Jumlah Uang Rp. 2.000     Sebanyak: "+hitung6);
+System.out.println("Jumlah Uang Rp. 1.000     Sebanyak: "+hitung7);
+System.out.println("Jumlah Uang Rp. 500     Sebanyak: "+hitung8);
+System.out.println("Jumlah Uang Rp. 100     Sebanyak: "+hitung9);
+System.out.println("Jumlah Uang Rp. 50         Sebanyak: "+hitung10);
+System.out.println("Jumlah Uang Rp. 25         Sebanyak: "+hitung11);
+System.out.println("Jumlah Uang Rp. 5         Sebanyak: "+hitung12);
+System.out.println("berhasil-berhasil hore");
+
+}
+}
