@@ -5,7 +5,9 @@ Nim    : 32602000057
 Kelas  : Teknik Informatika B
 
 --- PROGRAM MENGHITUNG LUAS BIDANG ---
+
 Langkah langkah :
+
 1. Pada tampilan menu klik "aplikasi" di pojok kiri atas
 2. Pilih option bidang yang akan anda hitung
 3. Kemudian akan muncul halaman baru yang memuat laman menghitung luas bidang dari option yang sudah anda pilih tadi
